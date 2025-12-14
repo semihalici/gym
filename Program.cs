@@ -73,7 +73,7 @@ using (var scope = app.Services.CreateScope())
     catch (Exception ex)
     {
         var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "Veri ekleme sırasında bir hata oluştu.!");
+        logger.LogError(ex, "Veri ekleme sırasında bir hata oluştu.!!!");
     }
 }
 // --- BİTİŞ ---
